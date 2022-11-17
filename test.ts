@@ -1,7 +1,8 @@
 magnetics.setLocalName("DeviceVal")
 magnetics.startEmitting()
-let val = 0;
-basic.forever(function () {
-    magnetics.setAdvertisingKeyValueData("val", val++)
+
+
+for (let i = 0; i < 10; ++i) {
+    magnetics.setAdvertisingKeyValueData("val", i)
     pause(500)
-})
+}
