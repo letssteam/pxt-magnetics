@@ -9,7 +9,7 @@ namespace magnetics {
      *
      */
     //% blockId=ble_start_emitting block="Start Send mode"
-    //% help=magnetics/ble_start_emitting weight=95 shim=magnetics::startEmitting
+    //% help=magnetics/ble_start_emitting weight=95
     export function startEmitting(): void
     {
 
@@ -20,7 +20,7 @@ namespace magnetics {
      *
      */
     //% blockId=ble_stop_emitting block="Stop Send mode"
-    //% help=magnetics/ble_stop_emitting weight=95 shim=magnetics::stopEmitting
+    //% help=magnetics/ble_stop_emitting weight=95 
     export function stopEmitting(): void
     {
 
@@ -31,7 +31,7 @@ namespace magnetics {
      *
      */
     //% blockId=ble_start_scanning block="Start Scan mode"
-    //% help=magnetics/ble_start_scanning weight=91 shim=magnetics::startScanning
+    //% help=magnetics/ble_start_scanning weight=91
     export function startScanning(): void
     {
 
@@ -42,7 +42,7 @@ namespace magnetics {
      *
      */
     //% blockId=ble_stop_scanning block="Stop Scan mode"
-    //% help=magnetics/ble_stop_scanning weight=91 shim=magnetics::stopScanning
+    //% help=magnetics/ble_stop_scanning weight=91 
     export function stopScanning(): void
     {
 
@@ -54,7 +54,7 @@ namespace magnetics {
      * @param name The name
      */
     //% blockId=ble_set_local_name block="BLE device name : %name"
-    //% help=magnetics/ble_set_local_name weight=90 shim=magnetics::setLocalName
+    //% help=magnetics/ble_set_local_name weight=90
     export function setLocalName(name: string): void
     {
 
