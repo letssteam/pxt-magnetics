@@ -4,11 +4,14 @@
     "description": "magnetics for makecode",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "bluetooth": "*"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "ns.ts",
+        "magnetics.ts"
+        
     ],
     "testFiles": [
         "test.ts"
@@ -18,7 +21,6 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj",
     "yotta": {
         "config": {
             "microbit-dal": {

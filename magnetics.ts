@@ -1,3 +1,6 @@
+/**
+ * Functions to communicate with magnetics layer
+ */
 //% color="#B4009E" weight=40 icon="\uf076"
 namespace magnetics {
 
