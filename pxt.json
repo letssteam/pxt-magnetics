@@ -1,0 +1,31 @@
+{
+    "name": "pxt-magnetics",
+    "version": "0.0.5",
+    "description": "magnetics for makecode",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 1
+                }
+            }
+        }
+    }
+}
