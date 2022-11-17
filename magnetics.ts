@@ -10,7 +10,7 @@ namespace magnetics {
      */
     //% blockId=ble_start_emitting block="Start Send mode"
     //% help=magnetics/ble_start_emitting weight=95 shim=magnetics::startEmitting
-    function startEmitting(): void
+    export function startEmitting(): void
     {
 
     }
@@ -21,7 +21,7 @@ namespace magnetics {
      */
     //% blockId=ble_stop_emitting block="Stop Send mode"
     //% help=magnetics/ble_stop_emitting weight=95 shim=magnetics::stopEmitting
-    function stopEmitting(): void
+    export function stopEmitting(): void
     {
 
     }
@@ -32,7 +32,7 @@ namespace magnetics {
      */
     //% blockId=ble_start_scanning block="Start Scan mode"
     //% help=magnetics/ble_start_scanning weight=91 shim=magnetics::startScanning
-    function startScanning(): void
+    export function startScanning(): void
     {
 
     }
@@ -43,7 +43,7 @@ namespace magnetics {
      */
     //% blockId=ble_stop_scanning block="Stop Scan mode"
     //% help=magnetics/ble_stop_scanning weight=91 shim=magnetics::stopScanning
-    function stopScanning(): void
+    export function stopScanning(): void
     {
 
     }
@@ -55,7 +55,7 @@ namespace magnetics {
      */
     //% blockId=ble_set_local_name block="BLE device name : %name"
     //% help=magnetics/ble_set_local_name weight=90 shim=magnetics::setLocalName
-    function setLocalName(name: string): void
+    export function setLocalName(name: string): void
     {
 
     }
@@ -66,7 +66,7 @@ namespace magnetics {
      */
     //% blockId=ble_set_string_data block="BLE send string %data"
     //% help=magnetics/ble_set_string_data weight=71 shim=magnetics::setAdvertisingStringData
-    function setAdvertisingStringData(data: string): void
+    export function setAdvertisingStringData(data: string): void
     {
 
     }
@@ -77,7 +77,7 @@ namespace magnetics {
      */
     //% blockId=ble_set_keyvalue_data block="BLE send key %key: value %value"
     //% help=magnetics/ble_set_keyvalue_data weight=70 shim=magnetics::setAdvertisingKeyValueData
-    function setAdvertisingKeyValueData(key: string, value: number): void
+    export function setAdvertisingKeyValueData(key: string, value: number): void
     {
 
     }
@@ -88,7 +88,7 @@ namespace magnetics {
      */
     //% blockId=ble_available_data_from_name block="is available BLE data from %name"
     //% help=magnetics/ble_available_data_from_name weight=65 shim=magnetics::availableDataFromName
-    function availableDataFromName(name: string): boolean
+    export function availableDataFromName(name: string): boolean
     {
         return false;
     }
@@ -100,7 +100,7 @@ namespace magnetics {
      */
     //% blockId=ble_receive_data_from_name block="BLE receive data from %name"
     //% help=magnetics/ble_receive_data_from_name weight=65 shim=magnetics::readDataFromName
-    function readDataFromName(name: string): string
+    export function readDataFromName(name: string): string
     {
         return "";
     }
@@ -110,7 +110,7 @@ namespace magnetics {
      */
     //% blockId=ble_on_new_message block="on new message from %name"
     //% help=magnetics/ble_on_new_message weight=60 shim=magnetics::onNewMessageReceived
-    function onNewMessageReceived(name: string, handler: () => void): void
+    export function onNewMessageReceived(name: string, handler: () => void): void
     {
 
     }
