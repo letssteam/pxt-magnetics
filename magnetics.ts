@@ -76,7 +76,7 @@ namespace magnetics {
      *
      */
     //% blockId=ble_set_keyvalue_data block="BLE send key %key: value %value"
-    //% help=magnetics/ble_set_keyvalue_data weight=70 shim=magnetics::setAdvertisingKeyValueData
+    //% help=magnetics/ble_set_keyvalue_data weight=70
     export function setAdvertisingKeyValueData(key: string, value: number): void
     {
 
@@ -87,7 +87,7 @@ namespace magnetics {
      *
      */
     //% blockId=ble_available_data_from_name block="is available BLE data from %name"
-    //% help=magnetics/ble_available_data_from_name weight=65 shim=magnetics::availableDataFromName
+    //% help=magnetics/ble_available_data_from_name weight=65
     export function availableDataFromName(name: string): boolean
     {
         return false;
@@ -99,7 +99,7 @@ namespace magnetics {
      *
      */
     //% blockId=ble_receive_data_from_name block="BLE receive data from %name"
-    //% help=magnetics/ble_receive_data_from_name weight=65 shim=magnetics::readDataFromName
+    //% help=magnetics/ble_receive_data_from_name weight=65
     export function readDataFromName(name: string): string
     {
         return "";
@@ -109,7 +109,7 @@ namespace magnetics {
      * Run some code when we receive new message from device
      */
     //% blockId=ble_on_new_message block="on new message from %name"
-    //% help=magnetics/ble_on_new_message weight=60 shim=magnetics::onNewMessageReceived
+    //% help=magnetics/ble_on_new_message weight=60
     export function onNewMessageReceived(name: string, handler: () => void): void
     {
 
